@@ -2,5 +2,33 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "Unite Summit"
+  "title": "Unite Summit",
+  "details": "Um evento para quem é apaixonado por programação",
+  "maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "New Event 2",
+  "details": null,
+  "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/a816d380-3fad-4ccd-ad8e-3124106478f6/attendees
+Content-Type: application/json
+
+{
+  "name": "Hugolino Guimarães",
+  "email": "hugolino@gmail.com.br"
+}
+
+###
+
+GET http://localhost:3333/events/a816d380-3fad-4ccd-ad8e-3124106478f6
+Content-Type: application/json

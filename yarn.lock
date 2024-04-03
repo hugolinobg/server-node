@@ -241,7 +241,14 @@ fast-uri@^2.0.0, fast-uri@^2.1.0:
   resolved "https://registry.npmjs.org/fast-uri/-/fast-uri-2.3.0.tgz"
   integrity sha512-eel5UKGn369gGEWOqBShmFJWfq/xSJvsgDzgLYC845GneayWvXBf0lJCBn5qTABfewy1ZDPoaR5OZCP+kssfuw==
 
-fastify@^4.26.2:
+fastify-type-provider-zod@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.npmjs.org/fastify-type-provider-zod/-/fastify-type-provider-zod-1.1.9.tgz"
+  integrity sha512-Ztnu1ZWJEKJouZvdTyfgjuVqS+A4JLoCbWBvFqFhfnrg6YQvEvW+5cJvP98kNbuV5gjfpWmHSOTi3BpkidJPQg==
+  dependencies:
+    zod-to-json-schema "^3.17.1"
+
+fastify@^4.0.0, fastify@^4.26.2:
   version "4.26.2"
   resolved "https://registry.npmjs.org/fastify/-/fastify-4.26.2.tgz"
   integrity sha512-90pjTuPGrfVKtdpLeLzND5nyC4woXZN5VadiNQCicj/iJU4viNHKhsAnb7jmv1vu2IzkLXyBiCzdWuzeXgQ5Ug==
@@ -542,7 +549,12 @@ yallist@^4.0.0:
   resolved "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-zod@^3.22.4:
+zod-to-json-schema@^3.17.1:
+  version "3.22.5"
+  resolved "https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.22.5.tgz"
+  integrity sha512-+akaPo6a0zpVCCseDed504KBJUQpEW5QZw7RMneNmKw+fGaML1Z9tUNLnHHAC8x6dzVRO1eB2oEMyZRnuBZg7Q==
+
+zod@^3.14.2, zod@^3.22.4:
   version "3.22.4"
   resolved "https://registry.npmjs.org/zod/-/zod-3.22.4.tgz"
   integrity sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==
